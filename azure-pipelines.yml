@@ -1,0 +1,16 @@
+
+jobs:
+#- template: az.yml
+#  parameters:
+#    name: Linux
+#    vmImage: 'ubuntu-16.04'
+
+#- template: az.yml
+#  parameters:
+#    name: macOS
+#    vmImage: 'macOS-10.13'
+
+- template: az.yml
+  parameters:
+    name: Windows
+    vmImage: 'vs2017-win2016'
